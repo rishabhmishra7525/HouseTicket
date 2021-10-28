@@ -7,23 +7,16 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class HousieTicket {
-
-	
 	public static void main(String ar[]){
-
 		Scanner sc= new Scanner(System.in);
-
 		System.out.println("please enter row");
 		int row=sc.nextInt();
 		System.out.println("please enter column");
 		int c=sc.nextInt();
-
 		Ticket[] tickets = new Ticket[6];
 		for (int i = 0; i < 6; i++) {
 			tickets[i] = new Ticket(row,c);
 		}
-
-		
 		List<List<Integer>> columns = new ArrayList<List<Integer>>();
 		columns.add(GetData.getvalue(1));
 		columns.add(GetData.getvalue(2));
