@@ -11,6 +11,7 @@ public class HousieTicket {
 	
 	public static void main(String ar[]){
 
+		System.out.println("hello");
 		Scanner sc= new Scanner(System.in);
 
 		System.out.println("please enter row");
