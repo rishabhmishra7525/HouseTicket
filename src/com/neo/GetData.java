@@ -5,20 +5,7 @@ import java.util.List;
 
 public class GetData {
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 	public  static List<Integer> getvalue(int item) {
 		List<Integer> l1 = new ArrayList<Integer>();
