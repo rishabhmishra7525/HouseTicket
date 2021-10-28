@@ -1,0 +1,2 @@
+SELECT P.name,C.content,A.name from task.post P join task.comment C ON P.id = C.postid JOIN task.author A ON A.id = P.authorid  
+where A.name = 'James Bond' ORDER BY C.createdts desc limit 10;
