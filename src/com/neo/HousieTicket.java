@@ -23,60 +23,17 @@ public class HousieTicket {
 			tickets[i] = new Ticket(row,c);
 		}
 
-		List<Integer> l1 = new ArrayList<Integer>();
-		for (int i = 1; i <= 10; i++) {
-			l1.add(i);
-		}
-		List<Integer> l2 = new ArrayList<Integer>();
-		for (int i = 11; i <= 20; i++) {
-			l2.add(i);
-		}
-
-		List<Integer> l3 = new ArrayList<Integer>();
-		for (int i = 21; i <= 30; i++) {
-			l3.add(i);
-		}
-
-		List<Integer> l4 = new ArrayList<Integer>();
-		for (int i = 31; i <= 40; i++) {
-			l4.add(i);
-		}
-
-		List<Integer> l5 = new ArrayList<Integer>();
-		for (int i = 41; i <= 50; i++) {
-			l5.add(i);
-		}
-
-		List<Integer> l6 = new ArrayList<Integer>();
-		for (int i = 51; i <= 60; i++) {
-			l6.add(i);
-		}
-
-		List<Integer> l7 = new ArrayList<Integer>();
-		for (int i = 61; i <= 70; i++) {
-			l7.add(i);
-		}
-
-		List<Integer> l8 = new ArrayList<Integer>();
-		for (int i = 71; i <= 80; i++) {
-			l8.add(i);
-		}
-
-		List<Integer> l9 = new ArrayList<Integer>();
-		for (int i = 81; i <= 90; i++) {
-			l9.add(i);
-		}
-
+		
 		List<List<Integer>> columns = new ArrayList<List<Integer>>();
-		columns.add(l1);
-		columns.add(l2);
-		columns.add(l3);
-		columns.add(l4);
-		columns.add(l5);
-		columns.add(l6);
-		columns.add(l7);
-		columns.add(l8);
-		columns.add(l9);
+		columns.add(GetData.getvalue(1));
+		columns.add(GetData.getvalue(2));
+		columns.add(GetData.getvalue(3));
+		columns.add(GetData.getvalue(4));
+		columns.add(GetData.getvalue(5));
+		columns.add(GetData.getvalue(6));
+		columns.add(GetData.getvalue(7));
+		columns.add(GetData.getvalue(8));
+		columns.add(GetData.getvalue(9));
 
 		List<List<Integer>> set1 = new ArrayList<List<Integer>>();
 		List<List<Integer>> set2 = new ArrayList<List<Integer>>();
